@@ -2,7 +2,7 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="Haxk20" revision="linux-mainline" />
 
 <!--sdm630-->
 <project path="device/sony/nile" name="device-sony-nile" groups="device" remote="sony" revision="master" />
@@ -11,7 +11,7 @@
 <project path="device/sony/voyager" name="device-sony-voyager" groups="device" remote="sony" revision="master" />
 
 <!--sdm630-->
-<project path="device/sony/ganges" name="device-sony-ganges" groups="device" remote="sony" revision="master" />
+<project path="device/sony/ganges" name="device-sony-ganges" groups="device" remote="Haxk20" revision="linux-mainline" />
 <project path="device/sony/kirin" name="device-sony-kirin" groups="device" remote="sony" revision="master" />
 <project path="device/sony/mermaid" name="device-sony-mermaid" groups="device" remote="sony" revision="master" />
 
